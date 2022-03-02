@@ -1,0 +1,9 @@
+.lead {
+    grid-area: lead;
+}
+
+@media (min-width: 1024px) {
+    .lead {
+        max-width: 984px;
+    }
+}

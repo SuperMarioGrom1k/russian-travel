@@ -1,0 +1,14 @@
+.intro {
+    padding: 6px 16px 64px 16px;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        padding: 88px 16px 88px 24px;
+    }
+}
+@media (min-width: 1280px) {
+    .intro {
+        padding-left: 120px;
+    }
+}

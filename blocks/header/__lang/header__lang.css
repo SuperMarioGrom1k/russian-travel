@@ -1,0 +1,14 @@
+.header__lang {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 14px 0 0 0;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+@media (min-width: 768px) {
+    .header__lang {
+        padding: 18px 0 0 0;
+    }
+}

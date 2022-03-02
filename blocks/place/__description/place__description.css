@@ -1,0 +1,22 @@
+.place__description {
+    font-size: 16px;
+    line-height: 26px;
+    grid-area: place-description;
+    margin: 0;
+    padding: 32px 18px;
+}
+
+@media (min-width: 768px) {
+    .place__description {
+        padding: 0;
+        margin: 48px 0 0 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__description {
+        font-size: 18px;
+        margin: 48px 0 0 0;
+        line-height: 29px;
+    }
+}

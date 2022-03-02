@@ -1,0 +1,21 @@
+.body {
+    font-family: 'Inter', 'Helvetika', 'Arial', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2a2c2f;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: grid;
+    grid-template-columns: auto minmax( 320px, 1280px ) auto;
+    grid-template-areas:
+    ". header ."
+    ". main ."
+    /* ". intro ."
+    ". photo-grid ."
+    ". places ."
+    ". cover ." */
+    ". footer .";
+}
