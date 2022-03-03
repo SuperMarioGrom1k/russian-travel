@@ -4,7 +4,7 @@
     align-items: center;
     grid-template-columns: minmax(320px, 1184px);
     grid-template-rows: 33px auto 16px auto 33px;
-    background: url(../../../images/cover-trains.jpg);
+    background: url(/image/cover-trains.jpg);
     background-size: cover;
     min-height: 200px;
 }
