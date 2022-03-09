@@ -4,18 +4,20 @@
     align-items: center;
     grid-template-columns: minmax(320px, 1184px);
     grid-template-rows: 33px auto 16px auto 33px;
-    background: url(/image/cover-trains.jpg);
+    background: url(../../../image/cover-trains.jpg);
     background-size: cover;
     min-height: 200px;
 }
 .cover__overlay::before {
-    background-color: rgba(42, 44, 47, 0.3);
+    content: "";
+    background-color: #2A2C2F;
+    opacity: .3;
     grid-column: 1;
     grid-row: 1/6;
     justify-self: stretch;
     align-self: stretch;
+    transition: opacity .5s;
 }
-
 
 @media (min-width: 768px) {
     .cover__overlay{
